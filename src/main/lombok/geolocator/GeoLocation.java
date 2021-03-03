@@ -6,6 +6,7 @@ package geolocator;
 @lombok.Data
 public class GeoLocation {
 
+    // CHECKSTYLE:OFF
     private String as;
     private String city;
     private String country;
