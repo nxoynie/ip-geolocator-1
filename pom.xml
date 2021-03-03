@@ -19,6 +19,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
 		<maven.compiler.release>11</maven.compiler.release>
+		<jackson-databind.version>2.12.1</jackson-databind.version>
 		<mainClass>geolocator.GeoLocator</mainClass>
 	</properties>
 	<dependencies>
@@ -37,7 +38,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.12.1</version>
+			<version>${jackson-databind.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
